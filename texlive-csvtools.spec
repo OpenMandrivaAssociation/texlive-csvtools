@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /obsolete/macros/latex/contrib/csvtools
+# catalog-date 2008-10-15 11:51:27 +0200
+# catalog-license lppl
+# catalog-version 1.24
 Name:		texlive-csvtools
 Version:	1.24
 Release:	1
@@ -56,6 +62,7 @@ has now been superseded by the datatool bundle.
 #- source
 %doc %{_texmfdistdir}/source/latex/csvtools/csvtools.dtx
 %doc %{_texmfdistdir}/source/latex/csvtools/csvtools.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -66,3 +73,5 @@ has now been superseded by the datatool bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
