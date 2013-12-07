@@ -6,7 +6,7 @@
 # catalog-version 1.24
 Name:		texlive-csvtools
 Version:	1.24
-Release:	5
+Release:	6
 Summary:	Reading data from CSV files
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/obsolete/macros/latex/contrib/csvtools
