@@ -9,7 +9,7 @@ Version:	1.24
 Release:	12
 Summary:	Reading data from CSV files
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/obsolete/macros/latex/contrib/csvtools
+URL:		https://www.ctan.org/tex-archive/obsolete/macros/latex/contrib/csvtools
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/csvtools.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/csvtools.doc.tar.xz
